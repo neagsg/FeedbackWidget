@@ -37,9 +37,18 @@ export function FeedbackContentStep({
           className="min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none resize-none"
           placeholder="Conte com detalhes o que está acontecendo..."
         />
+
+        <footer className="flex gap-2 mt-2">
+          <button
+            type="submit"
+            className="bg-brand-500 p-2 w-full rounded-[4px] border-transparent flex flex-1 items-center justify-center text-sm hover:bg-brand-300 transition-all duration-400 focus:outline-none"
+          >
+            Enviar feedback
+          </button>
+        </footer>
       </form>
 
-      <div className="flex py-8 gap-2 w-full"></div>
+      {/* <div className="flex py-8 gap-2 w-full"></div> */}
       
     </>
   )
